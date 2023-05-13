@@ -1,0 +1,17 @@
+body {
+    background-color: blueviolet;
+    color: white;
+}
+
+button {
+    color: rgb(175, 0, 228)   ;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin: 4px;
+    border: none;   
+}     
+
+button:hover {  
+    background-color: rgb(250, 196, 255);
+}
+
