@@ -1,6 +1,6 @@
-const btn = document.querySelector('button')
-const body = document.querySelector('body')
-btn.addEventListener('click', () => {
-    body.style.backgroundColor = red
+const btn1 = document.getElementById('myBtn')
+const para = document.getElementById('para')
 
-})
+btn1.addEventListener('click', () => {
+    para.innerHTML = 'my name is felix'
+}) 
